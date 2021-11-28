@@ -1,0 +1,63 @@
+h1,h2{
+    color: midnightblue;
+    text-align: center;
+}
+
+h3{
+    padding: 8px;
+}
+img{
+    width: 200px;
+    border: 3px solid midnightblue;
+}
+
+p{
+    display: flex;
+    align-content: center;
+}
+
+ul,h3,p{
+    margin-top: 0px;
+    margin-bottom: 0px;
+}
+
+body{
+    background-image: url("https://img.freepik.com/vector-gratis/diseno-fondo-blanco-estilo-perspectiva-3d-forma-hexagonal_1017-27558.jpg?size=626&ext=jpg");
+    font-family: Arial, Helvetica, sans-serif;
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+
+#wrapper {
+    display: grid;
+    align-items: center;
+}
+#wrapper2 {
+    align-items: center;
+}
+#section1 {
+    margin-right: 10px;
+    display: flex;
+    justify-content: center;
+}
+#section2 {
+    grid-column-start: 2;
+    background-color: rgb(224, 232, 255);
+    margin-bottom: 15px;
+}
+.section{
+    background-color: rgb(224, 232, 255);
+    margin-bottom: 15px;
+}
+.info{
+    padding: 5px;
+}
+.subtitle{
+    background-color: midnightblue;
+    color: white;
+}
+
+#content{
+    display: flex;
+    justify-content: center;
+}

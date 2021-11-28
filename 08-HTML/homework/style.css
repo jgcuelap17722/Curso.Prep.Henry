@@ -1,0 +1,33 @@
+h1{
+    color: rgb(17, 50, 51);
+}
+img{
+    width: 400px;
+    display: block;
+}
+#thirdDiv{    
+    height: 600px;
+    width: 500px;
+    background: rgb(208 180 88);
+    padding: 50px;
+    border: 3px solid rgb(91 99 45);
+    display: flex;
+    justify-content: center;
+}
+#spanId{
+    font-size: 18px;
+    margin: 50px;
+}
+
+#Content1{
+    text-align: center;
+}
+
+#Content2{
+    display: flex;
+    justify-content: center;
+}
+
+body{
+    background-image: url("https://i.pinimg.com/736x/a5/32/06/a53206b96771c12846a28c3850fa41ad.jpg");
+}
